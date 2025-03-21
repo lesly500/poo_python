@@ -1,6 +1,6 @@
 # Composicion
 
-"""Una coordenada en dos dimensiones esta compuesta por dos valores, el valor en el eje e las x y valor en el eje de las y, esto podria ser una clase. Un cuadro esta compuesto por cuatro coorenadas que son os cuatos vertices, esto podria ser una clase que esta compuesta por cuatros clases del objetos coordenada."""
+"""Una coordenada en dos dimensiones esta compuesta por dos valores, el valor en el eje e las x y valor en el eje de las y, esto podria ser una clase. Un cuadro esta compuesto por cuatro coorenadas que son los cuatos vertices, esto podria ser una clase que esta compuesta por cuatros clases del objetos coordenada."""
 
 # Clase coordenada
 
@@ -18,13 +18,6 @@ class Coordenada:
 # clases cuadros
 
 class Cuadrado:
-
-    # metodo constructor
-    def __init__(self, v1,v2,v3,v4):
-        self.V1 = v1
-        self.V2 = v2
-        self.V3 = v3
-        self.V4 = v4
 
      # metodo para mostrar los vertices
     def mostrarVertices(self):
